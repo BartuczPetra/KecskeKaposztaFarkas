@@ -11,7 +11,6 @@ var kepTomb = [];
 function init(){
     for (var i = 0; i < $("#bal img").length; i++) {
         $("#bal img")[i].addEventListener("click", feladat3);
-        $("#bal img")[i].addEventListener("click", feladat1);
         $("#bal img")[i].addEventListener("mouseover", feladat5);
         $("#bal img")[i].addEventListener("mouseout", feladat6);
     }
@@ -27,9 +26,9 @@ function feladat3(){
 }
 
 function feladat5(){
-    this.classList.add("kiemel")
+    this.classList.add("kiemel");
 }
 function feladat6(){
-    this.classList.remove("kiemel")
+    this.classList.remove("kiemel");
 }
 
