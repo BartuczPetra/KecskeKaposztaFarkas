@@ -38,3 +38,14 @@ article{
 
 #jobb{grid-area: j;}
 footer{grid-area: f;}
+
+footer p{
+    text-align: center;
+    font-size: 20px;
+    background-color: lightblue;
+}
+
+.kiemel{
+    border: 2pt solid red;
+    cursor: grab;
+}
