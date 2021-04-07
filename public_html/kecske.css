@@ -28,7 +28,9 @@ main{
 }
 
 header{grid-area: h;}
-#bal{grid-area: b;}
+#bal{
+    grid-area: b;
+}
 
 article{
     grid-area: cs;
