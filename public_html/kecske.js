@@ -17,8 +17,7 @@ function init(){
 }
 function feladat1(){
      kepTomb.push(this.src);
-     console.log(kepTomb);
-    
+     console.log(kepTomb);    
 }
 
 function feladat5(){
