@@ -16,5 +16,6 @@ function init(){
 function feladat1(){
      kepTomb.push(this.src);
      console.log(kepTomb);
+    $("footer p")[0].innerHTML="Balogh Bíborka, Kiss Niki, Bartucz Petra";
 }
 
