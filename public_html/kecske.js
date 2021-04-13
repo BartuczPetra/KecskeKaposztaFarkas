@@ -19,10 +19,8 @@ function init(){
 function feladat3(){
      kepTomb.push(this.src);
      console.log(kepTomb);
-     //this.style.display = "none";
-     $("article div").innerHTML += $("#bal img");
-     this.style.order = "-10";
-     console.log(kepTomb);    
+     this.style.display = "none";
+    ID("csonak").innerHTML +='<img src="'+this.src+'" alt="utas" style="position: relative; top:200px; right: 0; width: 50px; height:50px; z-index: 10;">';
 }
 
 function feladat5(){
