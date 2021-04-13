@@ -33,6 +33,10 @@ header h1{text-align: center;}
 
 #bal{grid-area: b;}
 
+#bal{
+    grid-area: b;
+}
+
 article{
     grid-area: cs;
     background-color: lightblue;
