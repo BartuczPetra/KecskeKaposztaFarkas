@@ -28,6 +28,9 @@ main{
 }
 
 header{grid-area: h;}
+
+header h1{text-align: center;}
+
 #bal{grid-area: b;}
 
 article{

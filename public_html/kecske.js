@@ -18,3 +18,10 @@ function feladat1(){
      console.log(kepTomb);
 }
 
+function feladat8(){
+    if ("#bal p:first-child" === "#bal p:nth-child(2)"){
+        alert("Nem jó! Megesziii!");
+    }else if ("#bal p:first-child" === "#bal p:nth-child(3)"){
+        alert("Nem jó! Megesziii!");
+    }
+}
